@@ -29,4 +29,5 @@ class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comment
         fields = '__all__'
-        read_only_fields = ['author', 'post']  # Указываем, что эти поля только для чтения
+        read_only_fields = ['author', 'post']  
+        # Указываем, что эти поля только для чтения
