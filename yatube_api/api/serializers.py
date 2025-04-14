@@ -2,7 +2,7 @@ from rest_framework import serializers
 
 from posts.models import Comment, Post, Follow, Group, User
 
-
+#f
 class PostSerializer(serializers.ModelSerializer):
     author = serializers.SlugRelatedField(
         slug_field='username',
